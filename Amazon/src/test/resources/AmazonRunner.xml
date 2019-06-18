@@ -15,7 +15,9 @@
 
     <test name="Amazon Test Home">
         <classes>
-                        <class name="amazonPackageTest.AccountTest"/>
+<!--            <class name="amazonPackageTest.AccountTest"/>-->
+<!--            <class name="amazonPackageTest.BrowseProductTest"/>-->
+            <class name="amazonPackageTest.VerifyItemTest"/>
 
         </classes>
     </test>

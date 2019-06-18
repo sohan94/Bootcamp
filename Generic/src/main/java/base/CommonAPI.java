@@ -14,6 +14,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import reporting.ExtentManager;
+import reporting.ExtentTestManager;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -31,8 +34,8 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
-    public static final String BROWSERSTACK_USERNAME = "soniamazri1";
-    public static final String BROWSERSTACK_AUTOMATE_KEY = "tX959y2CsYEUVujsuGsM";
+    public static final String BROWSERSTACK_USERNAME = "";
+    public static final String BROWSERSTACK_AUTOMATE_KEY = "";
     public static final String SAUCE_USERNAME = "";
     public static final String SAUCE_AUTOMATE_KEY = "";
     public static final String BROWSERSTACK_URL = "https://" + BROWSERSTACK_USERNAME + ":" + BROWSERSTACK_AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
@@ -59,11 +62,11 @@ public class CommonAPI {
 
     }
 
-    @Parameters({"platform", "url", "browserName", "useCloudEnv", "browserVersion", "cloudEnvName"})
+    @Parameters({"platform", "url", "browserName", "cloudEnvName", "browserVersion", "cloudEnvName"})
     @BeforeMethod
-    public static WebDriver setupDriver(String platform, String url, @Optional("chrome") String browserName,  boolean useCloudEnv, String browserVersion, String cloudEnvName) throws MalformedURLException {
-        if (useCloudEnv) {
-            driver = getCloudDriver(browserName, browserVersion, platform, cloudEnvName);
+    public static WebDriver setupDriver(String platform, String url, @Optional("chrome") String browserName, @Optional("false") boolean cloudEnvName, String browserVersion, String envName) throws MalformedURLException {
+        if (cloudEnvName) {
+            driver = getCloudDriver(browserName, browserVersion, platform, envName);
         } else {
             driver = getLocalDriver(browserName, platform);
         }
@@ -73,19 +76,20 @@ public class CommonAPI {
 
     public static WebDriver getCloudDriver(String browserName, String browserVersion, String platform, String cloudEnvName) throws MalformedURLException {
 
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("browser", "Chrome");
-        caps.setCapability("browser_version", "74.0");
-        caps.setCapability("os", "OS X");
-        caps.setCapability("os_version", "Mojave");
-        caps.setCapability("resolution", "1600x1200");
-        caps.setCapability("name", "Bstack-[Java] Sample Test");
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("name", "Cloud Execution");
+        capabilities.setCapability("browser", browserName);
+
+        capabilities.setCapability("browser_version", browserVersion);
+        capabilities.setCapability("os", platform);
+        capabilities.setCapability("os_version", "Mojave");
 
         if (cloudEnvName.equalsIgnoreCase("Saucelabs")) {
             //resolution for Saucelabs
-            driver = new RemoteWebDriver(new URL(SAUCE_URL), caps);
+            driver = new RemoteWebDriver(new URL(SAUCE_URL), capabilities);
         } else if (cloudEnvName.equalsIgnoreCase("Browserstack")) {
-            driver = new RemoteWebDriver(new URL(BROWSERSTACK_URL), caps);
+            capabilities.setCapability("resolution", "1024x768");
+            driver = new RemoteWebDriver(new URL(BROWSERSTACK_URL), capabilities);
         }
         return driver;
     }
@@ -98,6 +102,7 @@ public class CommonAPI {
      * @return WebDriver webdriver instance for the driver
      * @Author - peoplenTech
      */
+
     public static WebDriver getLocalDriver(String browserName, String platform) {
         if (platform.equalsIgnoreCase("mac") && browserName.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", "../Generic/src/main/resources/driver/chromedriver1");
@@ -105,8 +110,8 @@ public class CommonAPI {
             System.setProperty("webdriver.chrome.driver", "../Generic/src/main/resources/drivers/chromedriver.exe");
         }
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         return driver;
     }
@@ -213,7 +218,48 @@ public class CommonAPI {
 
     //****************************
 
+    @BeforeSuite
+    public void extentSetup(ITestContext context) {
+        ExtentManager.setOutputDirectory(context);
+        extent = ExtentManager.getInstance();
+    }
 
+    @BeforeMethod
+    public void startExtent(Method method) {
+        String className = method.getDeclaringClass().getSimpleName();
+        ExtentTestManager.startTest(method.getName());
+        ExtentTestManager.getTest().assignCategory(className);
+    }
+
+    protected String getStackTrace(Throwable t) {
+        StringWriter sw = new StringWriter();
+        PrintWriter pw = new PrintWriter(sw);
+        t.printStackTrace(pw);
+        return sw.toString();
+    }
+
+    @AfterMethod
+    public void afterEachTestMethod(ITestResult result) {
+        ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
+        ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
+        for (String group : result.getMethod().getGroups()) {
+            ExtentTestManager.getTest().assignCategory(group);
+        }
+
+        if (result.getStatus() == 1) {
+            ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
+        } else if (result.getStatus() == 2) {
+            ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
+        } else if (result.getStatus() == 3) {
+            ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
+        }
+
+        ExtentTestManager.endTest();
+        extent.flush();
+        if (result.getStatus() == ITestResult.FAILURE) {
+            captureScreenshot(driver, result.getName());
+        }
+    }
 
     private Date getTime(long millis) {
         Calendar calendar = Calendar.getInstance();
@@ -221,6 +267,10 @@ public class CommonAPI {
         return calendar.getTime();
     }
 
+    @AfterSuite
+    public void generateReport() {
+        extent.close();
+    }
 
     @AfterMethod
     public void quitDriver() {
@@ -279,16 +329,7 @@ public class CommonAPI {
     }
 
     public void typeByXpath(String locator, String value) {
-        WebElement e=driver.findElement(By.xpath(locator));
-        e.clear();
-        e.sendKeys(value);
-        // driver.findElement(By.xpath(locator)).sendKeys(value);
-    }
-
-    public void typeByXpath(WebElement element, String value) {
-        element.clear();
-        element.sendKeys(value);
-        // driver.findElement(By.xpath(locator)).sendKeys(value);
+        driver.findElement(By.xpath(locator)).sendKeys(value);
     }
 
     public void takeEnterKeys(String locator) {
@@ -446,6 +487,7 @@ public class CommonAPI {
 
     //type
     public void typeOnCss(String locator, String value) {
+
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
 

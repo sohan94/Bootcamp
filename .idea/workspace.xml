@@ -4,6 +4,8 @@
     <list default="true" id="dad363f2-57c2-4201-9f9c-a08bad74b485" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../BasicSeleniumTraining/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BasicSeleniumTraining/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ChaseWeb/Generic/src/main/resources/Drivers/chromedriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ChaseWeb/Generic/src/main/resources/Drivers/geckodriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Google/src/main/resources/drivers/chromedriver" afterDir="false" />
@@ -336,10 +338,12 @@
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/amazonPackage/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/amazonPackage/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/amazonPackageTest/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/amazonPackageTest/AccountTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/driver/chromedriver1" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/driver/chromedriver1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWork" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWorkProject/HomeWorkJava" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorkProject/HomeWorkJava" afterDir="false" />
@@ -399,35 +403,163 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-422">
-              <caret line="225" selection-start-line="225" selection-end-line="225" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#10860#10861#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            <state relative-caret-position="213">
+              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="197">
+              <caret line="277" column="22" lean-forward="true" selection-start-line="277" selection-start-column="22" selection-end-line="277" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5974#5986#0" expanded="true" />
+                <element signature="e#6031#6039#0" expanded="true" />
+                <element signature="e#6376#6388#0" expanded="true" />
+                <element signature="e#6624#6636#0" expanded="true" />
+                <element signature="e#6911#6919#0" expanded="true" />
+                <element signature="e#10883#10884#0" expanded="true" />
+                <element signature="e#10913#10914#0" expanded="true" />
+                <element signature="e#11365#11366#0" expanded="true" />
+                <element signature="e#11432#11433#0" expanded="true" />
+                <element signature="e#12119#12120#0" expanded="true" />
+                <element signature="e#12180#12181#0" expanded="true" />
+                <element signature="e#12239#12240#0" expanded="true" />
+                <element signature="e#12314#12315#0" expanded="true" />
+                <element signature="e#12527#12528#0" expanded="true" />
+                <element signature="e#12596#12597#0" expanded="true" />
+                <element signature="e#12645#12646#0" expanded="true" />
+                <element signature="e#12725#12726#0" expanded="true" />
+                <element signature="e#12776#12777#0" expanded="true" />
+                <element signature="e#12843#12844#0" expanded="true" />
+                <element signature="e#12962#12974#0" expanded="true" />
+                <element signature="e#13177#13189#0" expanded="true" />
+                <element signature="e#13422#13423#0" expanded="true" />
+                <element signature="e#13465#13466#0" expanded="true" />
+                <element signature="e#13810#13811#0" expanded="true" />
+                <element signature="e#13877#13878#0" expanded="true" />
+                <element signature="e#14131#14139#0" expanded="true" />
+                <element signature="e#15880#15881#0" expanded="true" />
+                <element signature="e#15928#15929#0" expanded="true" />
+                <element signature="e#15968#15969#0" expanded="true" />
+                <element signature="e#16018#16019#0" expanded="true" />
+                <element signature="e#17342#17343#0" expanded="true" />
+                <element signature="e#17409#17410#0" expanded="true" />
+                <element signature="e#17454#17455#0" expanded="true" />
+                <element signature="e#17534#17535#0" expanded="true" />
+                <element signature="e#17738#17739#0" expanded="true" />
+                <element signature="e#17804#17805#0" expanded="true" />
+                <element signature="e#18644#18645#0" expanded="true" />
+                <element signature="e#18702#18703#0" expanded="true" />
+                <element signature="e#18736#18737#0" expanded="true" />
+                <element signature="e#18776#18777#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/VerifyItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/VerifyItemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/BrowseProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1333#1334#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+                <element signature="e#1490#1491#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/BrowseProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -435,59 +567,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="434">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#318#319#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cigna/src/test/resources/CignaRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cigna/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -528,10 +616,15 @@
         <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AccountTest.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Account.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AccountTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/BrowseProduct.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/BrowseProductTest.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/VerifyItem.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/VerifyItemTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
       </list>
     </option>
   </component>
@@ -553,6 +646,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -630,6 +725,17 @@
             <path>
               <item name="BootCampAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="BootCampAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BootCampAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BootCampAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BootCampAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BootCampAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -668,6 +774,15 @@
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reporting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BootCampAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BootCampAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -683,29 +798,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Generic/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Generic/src/main/java/reporting" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Generic/src/main/java/reporting" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Generic/src/main/resources/driver" />
       <recent name="$PROJECT_DIR$/Facebook/src/test" />
       <recent name="$PROJECT_DIR$/Cnn/src/test" />
       <recent name="$PROJECT_DIR$/Citibank/src/test" />
       <recent name="$PROJECT_DIR$/Cigna/src/test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Generic/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -751,34 +865,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.17 at 20h 54m 02s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 10m 32s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.17 at 20h 54m 11s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 10m 46s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.17 at 20h 56m 47s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 12m 00s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.17 at 21h 06m 34s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 14m 54s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.17 at 21h 07m 18s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 28m 04s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.17 at 21h 10m 23s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 29m 04s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.17 at 21h 14m 22s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 35m 09s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.17 at 21h 16m 06s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 51m 05s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.17 at 21h 16m 59s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 57m 04s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.17 at 21h 19m 55s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 02h 05m 29s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -786,7 +900,7 @@
     <frame x="0" y="23" width="1280" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20840065" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21486267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -796,7 +910,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41955835" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -864,6 +978,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -899,44 +1025,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="225" selection-start-line="225" selection-end-line="225" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#10860#10861#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="434">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#318#319#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/BrowseProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/VerifyItemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="277" column="22" lean-forward="true" selection-start-line="277" selection-start-column="22" selection-end-line="277" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5974#5986#0" expanded="true" />
+            <element signature="e#6031#6039#0" expanded="true" />
+            <element signature="e#6376#6388#0" expanded="true" />
+            <element signature="e#6624#6636#0" expanded="true" />
+            <element signature="e#6911#6919#0" expanded="true" />
+            <element signature="e#10883#10884#0" expanded="true" />
+            <element signature="e#10913#10914#0" expanded="true" />
+            <element signature="e#11365#11366#0" expanded="true" />
+            <element signature="e#11432#11433#0" expanded="true" />
+            <element signature="e#12119#12120#0" expanded="true" />
+            <element signature="e#12180#12181#0" expanded="true" />
+            <element signature="e#12239#12240#0" expanded="true" />
+            <element signature="e#12314#12315#0" expanded="true" />
+            <element signature="e#12527#12528#0" expanded="true" />
+            <element signature="e#12596#12597#0" expanded="true" />
+            <element signature="e#12645#12646#0" expanded="true" />
+            <element signature="e#12725#12726#0" expanded="true" />
+            <element signature="e#12776#12777#0" expanded="true" />
+            <element signature="e#12843#12844#0" expanded="true" />
+            <element signature="e#12962#12974#0" expanded="true" />
+            <element signature="e#13177#13189#0" expanded="true" />
+            <element signature="e#13422#13423#0" expanded="true" />
+            <element signature="e#13465#13466#0" expanded="true" />
+            <element signature="e#13810#13811#0" expanded="true" />
+            <element signature="e#13877#13878#0" expanded="true" />
+            <element signature="e#14131#14139#0" expanded="true" />
+            <element signature="e#15880#15881#0" expanded="true" />
+            <element signature="e#15928#15929#0" expanded="true" />
+            <element signature="e#15968#15969#0" expanded="true" />
+            <element signature="e#16018#16019#0" expanded="true" />
+            <element signature="e#17342#17343#0" expanded="true" />
+            <element signature="e#17409#17410#0" expanded="true" />
+            <element signature="e#17454#17455#0" expanded="true" />
+            <element signature="e#17534#17535#0" expanded="true" />
+            <element signature="e#17738#17739#0" expanded="true" />
+            <element signature="e#17804#17805#0" expanded="true" />
+            <element signature="e#18644#18645#0" expanded="true" />
+            <element signature="e#18702#18703#0" expanded="true" />
+            <element signature="e#18736#18737#0" expanded="true" />
+            <element signature="e#18776#18777#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/BrowseProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/VerifyItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
