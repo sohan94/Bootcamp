@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad363f2-57c2-4201-9f9c-a08bad74b485" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Citibank/src/main/java/Citi/Citi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/screenshots/setDealsTest (06.18.2019-14:29PM).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/screenshots/setDealsTest (06.18.2019-14:30PM).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/screenshots/setSerachfieldTest (06.17.2019-23:50PM).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/screenshots/setSerachfieldTest (06.17.2019-23:51PM).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/screenshots/setVerifyItemTest (06.18.2019-01:35AM).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/screenshots/setVerifyItemTest (06.18.2019-01:57AM).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/Cigna.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/Cigna.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/test/resources/CignaRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/target/Cigna-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Citibank/Citibank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Citibank/Citibank.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Citibank/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Citibank/src/test/resources/CitibankRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Citibank/target/Citibank-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Citibank/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Citibank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Citibank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/Cnn-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/Facebook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/Facebook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/Facebook-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhatsApp/WhatsApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhatsApp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhatsApp/src/main/java/mobilePackage/MobileClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhatsApp/src/test/java/mobilePackageTest/MobileClassTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhatsApp/src/test/resources/WhatsappRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dad363f2-57c2-4201-9f9c-a08bad74b485" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -147,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/cignaPackage/HealthCoverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="202">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -848,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/cignaPackage/HealthCoverage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="202">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
