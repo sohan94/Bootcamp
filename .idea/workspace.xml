@@ -4,8 +4,6 @@
     <list default="true" id="dad363f2-57c2-4201-9f9c-a08bad74b485" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../BasicSeleniumTraining/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BasicSeleniumTraining/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ChaseWeb/Generic/src/main/resources/Drivers/chromedriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ChaseWeb/Generic/src/main/resources/Drivers/geckodriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Google/src/main/resources/drivers/chromedriver" afterDir="false" />
@@ -338,12 +336,8 @@
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/amazonPackage/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/amazonPackage/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/amazonPackageTest/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/amazonPackageTest/AccountTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWork" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWorkProject/HomeWorkJava" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorkProject/HomeWorkJava" afterDir="false" />
@@ -474,11 +468,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/VerifyItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="494">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#767#768#0" expanded="true" />
@@ -487,6 +481,40 @@
                 <element signature="e#940#941#0" expanded="true" />
                 <element signature="e#1052#1053#0" expanded="true" />
                 <element signature="e#1074#1075#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Autosuggestion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AutosuggestionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -558,33 +586,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Citibank/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="225">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -621,10 +624,12 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/BrowseProduct.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/BrowseProductTest.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/VerifyItem.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/VerifyItemTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Autosuggestion.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AutosuggestionTest.java" />
       </list>
     </option>
   </component>
@@ -865,34 +870,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 10m 32s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 14h 30m 38s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 10m 46s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 14h 31m 10s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 12m 00s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 14h 32m 03s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 14m 54s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 14h 32m 18s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 28m 04s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 14h 32m 38s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 29m 04s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 14h 32m 53s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 35m 09s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 14h 33m 11s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 51m 05s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 14h 33m 27s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 01h 57m 04s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 14h 35m 36s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 02h 05m 29s.xml">
+    <history-entry file="_Users_djafarouldslimane_Documents_BootCampAutomation_Amazon_src_test_resources_AmazonRunner_xml - 2019.06.18 at 14h 38m 49s.xml">
       <configuration name="/Users/djafarouldslimane/Documents/BootCampAutomation/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1116,13 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -1171,8 +1169,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/VerifyItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="494">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#767#768#0" expanded="true" />
@@ -1181,6 +1179,43 @@
             <element signature="e#940#941#0" expanded="true" />
             <element signature="e#1052#1053#0" expanded="true" />
             <element signature="e#1074#1075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/amazonPackageTest/AutosuggestionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonPackage/Autosuggestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
           </folding>
         </state>
       </provider>

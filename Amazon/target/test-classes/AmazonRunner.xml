@@ -17,7 +17,8 @@
         <classes>
 <!--            <class name="amazonPackageTest.AccountTest"/>-->
 <!--            <class name="amazonPackageTest.BrowseProductTest"/>-->
-            <class name="amazonPackageTest.VerifyItemTest"/>
+<!--            <class name="amazonPackageTest.VerifyItemTest"/>-->
+            <class name="amazonPackageTest.AutosuggestionTest"/>
 
         </classes>
     </test>
