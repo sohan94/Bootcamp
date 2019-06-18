@@ -9,7 +9,12 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Cigna/pom.xml" />
+        <option value="$PROJECT_DIR$/Citibank/pom.xml" />
+        <option value="$PROJECT_DIR$/Cnn/pom.xml" />
+        <option value="$PROJECT_DIR$/Facebook/pom.xml" />
         <option value="$PROJECT_DIR$/Generic2/pom.xml" />
+        <option value="$PROJECT_DIR$/WhatsApp/pom.xml" />
         <option value="$PROJECT_DIR$/Whatsapp/pom.xml" />
       </set>
     </option>

@@ -8,16 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="Facebook" />
-        <module name="Cnn" />
         <module name="Generic" />
+        <module name="CNN" />
         <module name="Cigna" />
-        <module name="WhatsApp" />
         <module name="Citibank" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Cigna" target="1.5" />
+      <module name="Citibank" target="1.5" />
+      <module name="Cnn" target="1.5" />
+      <module name="Facebook" target="1.5" />
       <module name="Generic2" target="1.5" />
       <module name="Whatsapp" target="1.5" />
+      <module name="WhatsApp" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

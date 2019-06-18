@@ -12,10 +12,9 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>Facebook</module>
-        <module>Cnn</module>
-        <module>Cigna</module>
         <module>Citibank</module>
-        <module>WhatsApp</module>
+        <module>CNN</module>
+        <module>Cigna</module>
     </modules>
 
     <dependencyManagement>
