@@ -15,7 +15,7 @@
 
     <test name="Amazon Test Home">
         <classes>
-                        <class name=""/>
+                        <class name="amazonPackageTest.AccountTest"/>
 
         </classes>
     </test>
