@@ -67,6 +67,7 @@
 
         </dependencies>
     </dependencyManagement>
+    <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 
 
 </project>
