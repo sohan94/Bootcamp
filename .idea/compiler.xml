@@ -11,6 +11,7 @@
         <module name="Cnn" />
         <module name="Generic" />
         <module name="Cigna" />
+        <module name="Generic2" />
         <module name="Citibank" />
       </profile>
     </annotationProcessing>
