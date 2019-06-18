@@ -15,7 +15,7 @@
         <module>Cnn</module>
         <module>Cigna</module>
         <module>Citibank</module>
-        <module>Generic2</module>
+        <module>WhatsApp</module>
     </modules>
 
     <dependencyManagement>

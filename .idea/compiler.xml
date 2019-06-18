@@ -11,9 +11,13 @@
         <module name="Cnn" />
         <module name="Generic" />
         <module name="Cigna" />
-        <module name="Generic2" />
+        <module name="WhatsApp" />
         <module name="Citibank" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Generic2" target="1.5" />
+      <module name="Whatsapp" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

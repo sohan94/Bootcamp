@@ -31,6 +31,10 @@
             <artifactId>poi</artifactId>
         </dependency>
         <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>4.0.9</version>

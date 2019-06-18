@@ -3,42 +3,6 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="amazonPackageTest.AutosuggestionTest">
-        <methods>
-          <include name="afterEachTestMethod"/>
-          <include name="setDealsTest"/>
-          <include name="init"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="setupDriver"/>
-          <include name="startExtent"/>
-          <include name="quitDriver"/>
-        </methods>
-      </class> <!-- amazonPackageTest.AutosuggestionTest -->
-      <class name="amazonPackageTest.BrowseProductTest">
-        <methods>
-          <include name="afterEachTestMethod"/>
-          <include name="generateReport"/>
-          <include name="init"/>
-          <include name="extentSetup"/>
-          <include name="setSerachfieldTest"/>
-          <include name="setupDriver"/>
-          <include name="startExtent"/>
-          <include name="quitDriver"/>
-        </methods>
-      </class> <!-- amazonPackageTest.BrowseProductTest -->
-      <class name="amazonPackageTest.VerifyItemTest">
-        <methods>
-          <include name="afterEachTestMethod"/>
-          <include name="setVerifyItemTest"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="setupDriver"/>
-          <include name="startExtent"/>
-          <include name="init"/>
-          <include name="quitDriver"/>
-        </methods>
-      </class> <!-- amazonPackageTest.VerifyItemTest -->
       <class name="amazonPackageTest.AccountTest">
         <methods>
           <include name="afterEachTestMethod"/>
@@ -51,6 +15,42 @@
           <include name="quitDriver"/>
         </methods>
       </class> <!-- amazonPackageTest.AccountTest -->
+      <class name="amazonPackageTest.AutosuggestionTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="setDealsTest"/>
+          <include name="init"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setupDriver"/>
+          <include name="startExtent"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- amazonPackageTest.AutosuggestionTest -->
+      <class name="amazonPackageTest.VerifyItemTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="setVerifyItemTest"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setupDriver"/>
+          <include name="startExtent"/>
+          <include name="init"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- amazonPackageTest.VerifyItemTest -->
+      <class name="amazonPackageTest.BrowseProductTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="init"/>
+          <include name="extentSetup"/>
+          <include name="setSerachfieldTest"/>
+          <include name="setupDriver"/>
+          <include name="startExtent"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- amazonPackageTest.BrowseProductTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
